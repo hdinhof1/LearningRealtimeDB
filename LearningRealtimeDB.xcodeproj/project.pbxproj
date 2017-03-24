@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17234F891E75DC86008479B4 /* TimeStamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17234F881E75DC86008479B4 /* TimeStamp.swift */; };
 		17A89A0F1E7486290055042F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A89A0E1E7486290055042F /* AppDelegate.swift */; };
 		17A89A111E7486290055042F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A89A101E7486290055042F /* ViewController.swift */; };
 		17A89A141E7486290055042F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A89A121E7486290055042F /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		17A89A191E7486290055042F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A89A171E7486290055042F /* LaunchScreen.storyboard */; };
 		17A89A241E7486290055042F /* LearningRealtimeDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A89A231E7486290055042F /* LearningRealtimeDBTests.swift */; };
 		17A89A2F1E7486290055042F /* LearningRealtimeDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A89A2E1E7486290055042F /* LearningRealtimeDBUITests.swift */; };
+		17A89A3D1E748AF50055042F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17A89A3C1E748AF50055042F /* GoogleService-Info.plist */; };
+		1F1FDC6DC04AC2E5B219F4CB /* Pods_LearningRealtimeDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D430317C628A3AA6483A3977 /* Pods_LearningRealtimeDB.framework */; };
+		3B47F21C965AE8100CC125A3 /* Pods_LearningRealtimeDBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB9303F9015FEAF540B57FA /* Pods_LearningRealtimeDBUITests.framework */; };
+		6DE9FD67E5D9B171E48825E8 /* Pods_LearningRealtimeDBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581B4F908410EE1004DFBDE2 /* Pods_LearningRealtimeDBTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044C119D5388235C6E81513B /* Pods-LearningRealtimeDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealtimeDBTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRealtimeDBTests/Pods-LearningRealtimeDBTests.release.xcconfig"; sourceTree = "<group>"; };
+		14E9D0B62AB2CF9C4D14D728 /* Pods-LearningRealtimeDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealtimeDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRealtimeDB/Pods-LearningRealtimeDB.release.xcconfig"; sourceTree = "<group>"; };
+		17234F881E75DC86008479B4 /* TimeStamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeStamp.swift; sourceTree = "<group>"; };
 		17A89A0B1E7486290055042F /* LearningRealtimeDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningRealtimeDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A89A0E1E7486290055042F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17A89A101E7486290055042F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		17A89A2A1E7486290055042F /* LearningRealtimeDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningRealtimeDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A89A2E1E7486290055042F /* LearningRealtimeDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningRealtimeDBUITests.swift; sourceTree = "<group>"; };
 		17A89A301E7486290055042F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A89A3C1E748AF50055042F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5236A5592EDD302950EA7354 /* Pods-LearningRealtimeDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealtimeDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRealtimeDB/Pods-LearningRealtimeDB.debug.xcconfig"; sourceTree = "<group>"; };
+		5499487EF656E791D0246D58 /* Pods-LearningRealtimeDBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealtimeDBUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRealtimeDBUITests/Pods-LearningRealtimeDBUITests.release.xcconfig"; sourceTree = "<group>"; };
+		581B4F908410EE1004DFBDE2 /* Pods_LearningRealtimeDBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningRealtimeDBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB9303F9015FEAF540B57FA /* Pods_LearningRealtimeDBUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningRealtimeDBUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC3042E648A458FEBAF4B34 /* Pods-LearningRealtimeDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealtimeDBTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRealtimeDBTests/Pods-LearningRealtimeDBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D430317C628A3AA6483A3977 /* Pods_LearningRealtimeDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningRealtimeDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99501AB7D8450CEC07759EB /* Pods-LearningRealtimeDBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealtimeDBUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRealtimeDBUITests/Pods-LearningRealtimeDBUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1FDC6DC04AC2E5B219F4CB /* Pods_LearningRealtimeDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE9FD67E5D9B171E48825E8 /* Pods_LearningRealtimeDBTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B47F21C965AE8100CC125A3 /* Pods_LearningRealtimeDBUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				17A89A221E7486290055042F /* LearningRealtimeDBTests */,
 				17A89A2D1E7486290055042F /* LearningRealtimeDBUITests */,
 				17A89A0C1E7486290055042F /* Products */,
+				3ECFABC8B2F1E6BD2C92EBA4 /* Pods */,
+				5C1A8D64982C11CC4B2C8792 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +121,11 @@
 				17A89A0E1E7486290055042F /* AppDelegate.swift */,
 				17A89A101E7486290055042F /* ViewController.swift */,
 				17A89A121E7486290055042F /* Main.storyboard */,
+				17234F881E75DC86008479B4 /* TimeStamp.swift */,
 				17A89A151E7486290055042F /* Assets.xcassets */,
 				17A89A171E7486290055042F /* LaunchScreen.storyboard */,
 				17A89A1A1E7486290055042F /* Info.plist */,
+				17A89A3C1E748AF50055042F /* GoogleService-Info.plist */,
 			);
 			path = LearningRealtimeDB;
 			sourceTree = "<group>";
@@ -125,6 +148,29 @@
 			path = LearningRealtimeDBUITests;
 			sourceTree = "<group>";
 		};
+		3ECFABC8B2F1E6BD2C92EBA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5236A5592EDD302950EA7354 /* Pods-LearningRealtimeDB.debug.xcconfig */,
+				14E9D0B62AB2CF9C4D14D728 /* Pods-LearningRealtimeDB.release.xcconfig */,
+				9BC3042E648A458FEBAF4B34 /* Pods-LearningRealtimeDBTests.debug.xcconfig */,
+				044C119D5388235C6E81513B /* Pods-LearningRealtimeDBTests.release.xcconfig */,
+				D99501AB7D8450CEC07759EB /* Pods-LearningRealtimeDBUITests.debug.xcconfig */,
+				5499487EF656E791D0246D58 /* Pods-LearningRealtimeDBUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C1A8D64982C11CC4B2C8792 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D430317C628A3AA6483A3977 /* Pods_LearningRealtimeDB.framework */,
+				581B4F908410EE1004DFBDE2 /* Pods_LearningRealtimeDBTests.framework */,
+				6FB9303F9015FEAF540B57FA /* Pods_LearningRealtimeDBUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17A89A331E7486290055042F /* Build configuration list for PBXNativeTarget "LearningRealtimeDB" */;
 			buildPhases = (
+				6F4024AACB231E0911D26838 /* [CP] Check Pods Manifest.lock */,
 				17A89A071E7486290055042F /* Sources */,
 				17A89A081E7486290055042F /* Frameworks */,
 				17A89A091E7486290055042F /* Resources */,
+				AD5CA8EF69DEA3A9E1D2AC85 /* [CP] Embed Pods Frameworks */,
+				F963521642921D00FA88949D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17A89A361E7486290055042F /* Build configuration list for PBXNativeTarget "LearningRealtimeDBTests" */;
 			buildPhases = (
+				CB7F1CD6235A5C75DF1075A4 /* [CP] Check Pods Manifest.lock */,
 				17A89A1B1E7486290055042F /* Sources */,
 				17A89A1C1E7486290055042F /* Frameworks */,
 				17A89A1D1E7486290055042F /* Resources */,
+				569D3C4B48C7FD88597045B6 /* [CP] Embed Pods Frameworks */,
+				4003D29A12E772885E6EFEB4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17A89A391E7486290055042F /* Build configuration list for PBXNativeTarget "LearningRealtimeDBUITests" */;
 			buildPhases = (
+				888DC3B77C723F144741712B /* [CP] Check Pods Manifest.lock */,
 				17A89A261E7486290055042F /* Sources */,
 				17A89A271E7486290055042F /* Frameworks */,
 				17A89A281E7486290055042F /* Resources */,
+				03195D52585BC4BB71D16634 /* [CP] Embed Pods Frameworks */,
+				C9C2485253CF258122B1C171 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17A89A191E7486290055042F /* LaunchScreen.storyboard in Resources */,
+				17A89A3D1E748AF50055042F /* GoogleService-Info.plist in Resources */,
 				17A89A161E7486290055042F /* Assets.xcassets in Resources */,
 				17A89A141E7486290055042F /* Main.storyboard in Resources */,
 			);
@@ -257,6 +313,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03195D52585BC4BB71D16634 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningRealtimeDBUITests/Pods-LearningRealtimeDBUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4003D29A12E772885E6EFEB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningRealtimeDBTests/Pods-LearningRealtimeDBTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		569D3C4B48C7FD88597045B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningRealtimeDBTests/Pods-LearningRealtimeDBTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F4024AACB231E0911D26838 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		888DC3B77C723F144741712B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD5CA8EF69DEA3A9E1D2AC85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningRealtimeDB/Pods-LearningRealtimeDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9C2485253CF258122B1C171 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningRealtimeDBUITests/Pods-LearningRealtimeDBUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB7F1CD6235A5C75DF1075A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F963521642921D00FA88949D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningRealtimeDB/Pods-LearningRealtimeDB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17A89A071E7486290055042F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +458,7 @@
 			files = (
 				17A89A111E7486290055042F /* ViewController.swift in Sources */,
 				17A89A0F1E7486290055042F /* AppDelegate.swift in Sources */,
+				17234F891E75DC86008479B4 /* TimeStamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +608,7 @@
 		};
 		17A89A341E7486290055042F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5236A5592EDD302950EA7354 /* Pods-LearningRealtimeDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9DUF68P9SK;
@@ -426,6 +622,7 @@
 		};
 		17A89A351E7486290055042F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E9D0B62AB2CF9C4D14D728 /* Pods-LearningRealtimeDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9DUF68P9SK;
@@ -439,6 +636,7 @@
 		};
 		17A89A371E7486290055042F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC3042E648A458FEBAF4B34 /* Pods-LearningRealtimeDBTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +652,7 @@
 		};
 		17A89A381E7486290055042F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 044C119D5388235C6E81513B /* Pods-LearningRealtimeDBTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +668,7 @@
 		};
 		17A89A3A1E7486290055042F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99501AB7D8450CEC07759EB /* Pods-LearningRealtimeDBUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9DUF68P9SK;
@@ -483,6 +683,7 @@
 		};
 		17A89A3B1E7486290055042F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5499487EF656E791D0246D58 /* Pods-LearningRealtimeDBUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9DUF68P9SK;
@@ -514,6 +715,7 @@
 				17A89A351E7486290055042F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17A89A361E7486290055042F /* Build configuration list for PBXNativeTarget "LearningRealtimeDBTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +724,7 @@
 				17A89A381E7486290055042F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17A89A391E7486290055042F /* Build configuration list for PBXNativeTarget "LearningRealtimeDBUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +733,7 @@
 				17A89A3B1E7486290055042F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
